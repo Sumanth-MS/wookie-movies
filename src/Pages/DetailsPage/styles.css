@@ -1,0 +1,11 @@
+.movie-info-container {
+    display: flex;
+}
+
+.movie-info-container > div {
+    flex-grow: 1;
+  }
+
+.movie-details-container {
+  margin: 0px 0px 0px 10px;
+}

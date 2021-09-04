@@ -1,0 +1,16 @@
+.genre-list {
+    min-width: 100%;
+    min-height: 200px;
+    overflow-x: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 20px;
+}
+
+.genre-list::-webkit-scrollbar {
+    display: none;
+}
+
+.genre-title {
+    color: #052685b5;
+}
